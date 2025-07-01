@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pekerjaans on Zona Karier</title>
+    <link>http://localhost:1313/pekerjaan/</link>
+    <description>Recent content in Pekerjaans on Zona Karier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Andre Yulianto</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pekerjaan/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lowongan Kerja Enginer di Bekasi</title>
+      <link>http://localhost:1313/pekerjaan/1751378705313-lowongan-kerja-enginer-di-bekasi/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/1751378705313-lowongan-kerja-enginer-di-bekasi/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/1751378705313-lowongan-kerja-enginer-di-bekasi/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

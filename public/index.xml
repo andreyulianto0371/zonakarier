@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zona Karier</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Zona Karier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Andre Yulianto</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Halo Aneh</title>
+      <link>http://localhost:1313/posts/1751378868819-halo-aneh/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1751378868819-halo-aneh/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1751378868819-halo-aneh/featured.png" />
+    </item>
+    
+    <item>
+      <title>Halo Dunia</title>
+      <link>http://localhost:1313/posts/1751378770047-halo-dunia/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1751378770047-halo-dunia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1751378770047-halo-dunia/featured.png" />
+    </item>
+    
+    <item>
+      <title>Halo Musuh</title>
+      <link>http://localhost:1313/posts/1751378856498-halo-musuh/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1751378856498-halo-musuh/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1751378856498-halo-musuh/featured.png" />
+    </item>
+    
+    <item>
+      <title>Halo Saya</title>
+      <link>http://localhost:1313/posts/1751378846875-halo-saya/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1751378846875-halo-saya/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1751378846875-halo-saya/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

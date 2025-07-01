@@ -1,0 +1,18 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "menu_1"
+pre = "email"
+url = "https://mail.google.com"
+identifier = "GjHmTMIpHW"
+weight = 9_999
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "menu_2"
+pageRef = "categories"
+identifier = "xBpJWoh475"
+weight = 9_999
