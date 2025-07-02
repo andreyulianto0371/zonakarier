@@ -1,0 +1,180 @@
+backend:
+  name: git-gateway
+  branch: main
+  squash_merges: true
+  commit_messages:
+    create: Create {{collection}} "{{slug}}"
+    update: Update {{collection}} "{{slug}}"
+    delete: Delete {{collection}} "{{slug}}"
+    uploadMedia: Upload "{{path}}"
+    deleteMedia: Delete "{{path}}"
+    openAuthoring: "{{message}}"
+
+publish_mode: simple
+media_folder: "static/uploads"
+public_folder: "/uploads"
+display_url: https://zonakarier.com
+logo_url: https://zonakarier.com/images/logo.png
+search: true
+
+collections:
+  - name: "pekerjaan"
+    label: "Pekerjaan"
+    folder: "content/pekerjaan"
+    create: true
+    format: "yaml-frontmatter"
+    yaml_format: "double_quoted"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tanggal", name: "date", widget: "datetime",  default: "{{now}}", dateFormat: "YYYY-MM-DD", required: false }
+      - { label: "Waktu", name: "time", widget: "datetime",  default: "{{now}}", time_format: "HH:mm", required: false }
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string",  encoding: "ascii", clean_accents: true, sanitize_replacement: "-" }
+      - { label: "Deskripsi", name: "description", widget: "text", required: false }
+      - { label: "Upload Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Thumbnail Manual", name: "featureimage", widget: "string", required: false, default: "feature.webp" }
+      - { label: "Caption Thumbnail", name: "featureimagecaption", widget: "text", required: false }
+      - { label: "Lulusan", name: "lulusan", widget: "select", multiple: true, options: ["SMA", "SMK", "D3", "S1", "S2"], required: false }
+      - { label: "Lokasi", name: "lokasi", widget: "select", multiple: true, options: ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi", "Karawang", "Bandung", "Cimahi", "Tasikmalaya", "Cirebon", "Semarang", "Surakarta", "Salatiga", "Magelang", "Yogyakarta", "Surabaya", "Malang", "Madiun", "Kediri", "Blitar", "Denpasar", "Mataram", "Kupang", "Banda Aceh", "Medan", "Padang", "Pekanbaru", "Jambi", "Palembang", "Bengkulu", "Bandar Lampung", "Pangkal Pinang", "Tanjung Pinang", "Pontianak", "Singkawang", "Banjarmasin", "Palangkaraya", "Samarinda", "Balikpapan", "Tarakan", "Manado", "Tomohon", "Bitung", "Gorontalo", "Palu", "Makassar", "Parepare", "Palopo", "Kendari", "Ambon", "Ternate", "Sofifi", "Jayapura", "Sorong", "Serang", "Cilegon", "Sukabumi", "Banjar", "Tegal", "Pekalongan", "Probolinggo", "Pasuruan", "Batu", "Lhokseumawe", "Langsa", "Subulussalam", "Binjai", "Tebing Tinggi", "Pematangsiantar", "Sibolga", "Tanjungbalai", "Gunungsitoli", "Dumai", "Lubuklinggau", "Prabumulih", "Pagar Alam", "Metro", "Singkawang", "Bontang", "Baubau", "Kotamobagu", "Tidore Kepulauan"], required: false }
+      - label: 'Jabatan'
+        name: 'jabatan'
+        widget: 'list'
+        summary: '{{fields.position}}'
+        required: false
+        field:
+          label: 'Position'
+          name: 'position'
+          widget: 'string'
+      - { label: "Editor", name: "body", widget: "markdown" }
+
+  - name: "magang"
+    label: "Magang"
+    folder: "content/magang"
+    create: true
+    format: "yaml-frontmatter"
+    yaml_format: "double_quoted"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tanggal Dibuat", name: "date", widget: "datetime",  default: "{{now}}", dateFormat: "YYYY-MM-DD", required: false }
+      - { label: "Waktu", name: "time", widget: "datetime",  default: "{{now}}", time_format: "HH:mm", required: false }
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string",  encoding: "ascii", clean_accents: true, sanitize_replacement: "-" }
+      - { label: "Deskripsi", name: "description", widget: "text", required: false }
+      - { label: "Upload Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Thumbnail Manual", name: "featureimage", widget: "string", required: false, default: "feature.webp" }
+      - { label: "Caption Thumbnail", name: "featureimagecaption", widget: "text", required: false }
+      - { label: "Lulusan", name: "lulusan", widget: "select", multiple: true, options: ["SMA", "SMK", "D3", "S1", "S2"], required: false }
+      - { label: "Lokasi", name: "lokasi", widget: "select", multiple: true, options: ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi", "Karawang", "Bandung", "Cimahi", "Tasikmalaya", "Cirebon", "Semarang", "Surakarta", "Salatiga", "Magelang", "Yogyakarta", "Surabaya", "Malang", "Madiun", "Kediri", "Blitar", "Denpasar", "Mataram", "Kupang", "Banda Aceh", "Medan", "Padang", "Pekanbaru", "Jambi", "Palembang", "Bengkulu", "Bandar Lampung", "Pangkal Pinang", "Tanjung Pinang", "Pontianak", "Singkawang", "Banjarmasin", "Palangkaraya", "Samarinda", "Balikpapan", "Tarakan", "Manado", "Tomohon", "Bitung", "Gorontalo", "Palu", "Makassar", "Parepare", "Palopo", "Kendari", "Ambon", "Ternate", "Sofifi", "Jayapura", "Sorong", "Serang", "Cilegon", "Sukabumi", "Banjar", "Tegal", "Pekalongan", "Probolinggo", "Pasuruan", "Batu", "Lhokseumawe", "Langsa", "Subulussalam", "Binjai", "Tebing Tinggi", "Pematangsiantar", "Sibolga", "Tanjungbalai", "Gunungsitoli", "Dumai", "Lubuklinggau", "Prabumulih", "Pagar Alam", "Metro", "Singkawang", "Bontang", "Baubau", "Kotamobagu", "Tidore Kepulauan"], required: false }
+      - label: 'Jabatan'
+        name: 'jabatan'
+        widget: 'list'
+        summary: '{{fields.position}}'
+        required: false
+        field:
+          label: 'Position'
+          name: 'position'
+          widget: 'string'
+      - { label: "Editor", name: "body", widget: "markdown" }
+
+  - name: "pelatihan"
+    label: "Pelatihan"
+    folder: "content/pelatihan"
+    create: true
+    format: "yaml-frontmatter"
+    yaml_format: "double_quoted"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tanggal Dibuat", name: "date", widget: "datetime",  default: "{{now}}", dateFormat: "YYYY-MM-DD", required: false }
+      - { label: "Waktu", name: "time", widget: "datetime",  default: "{{now}}", time_format: "HH:mm", required: false }
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string",  encoding: "ascii", clean_accents: true, sanitize_replacement: "-" }
+      - { label: "Deskripsi", name: "description", widget: "text", required: false }
+      - { label: "Upload Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Thumbnail Manual", name: "featureimage", widget: "string", required: false, default: "feature.webp" }
+      - { label: "Caption Thumbnail", name: "featureimagecaption", widget: "text", required: false }
+      - { label: "Editor", name: "body", widget: "markdown" }
+
+  - name: "sertifikasi"
+    label: "Sertifikasi"
+    folder: "content/sertifikasi"
+    create: true
+    format: "yaml-frontmatter"
+    yaml_format: "double_quoted"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tanggal Dibuat", name: "date", widget: "datetime",  default: "{{now}}", dateFormat: "YYYY-MM-DD", required: false }
+      - { label: "Waktu", name: "time", widget: "datetime",  default: "{{now}}", time_format: "HH:mm", required: false }
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string",  encoding: "ascii", clean_accents: true, sanitize_replacement: "-" }
+      - { label: "Deskripsi", name: "description", widget: "text", required: false }
+      - { label: "Upload Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Thumbnail Manual", name: "featureimage", widget: "string", required: false, default: "feature.webp" }
+      - { label: "Caption Thumbnail", name: "featureimagecaption", widget: "text", required: false }
+      - { label: "Editor", name: "body", widget: "markdown" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    format: "yaml-frontmatter"
+    yaml_format: "double_quoted"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tanggal Dibuat", name: "date", widget: "datetime",  default: "{{now}}", dateFormat: "YYYY-MM-DD", required: false }
+      - { label: "Waktu", name: "time", widget: "datetime",  default: "{{now}}", time_format: "HH:mm", required: false }
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string",  encoding: "ascii", clean_accents: true, sanitize_replacement: "-" }
+      - { label: "Deskripsi", name: "description", widget: "text", required: false }
+      - { label: "Upload Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Thumbnail Manual", name: "featureimage", widget: "string", required: false, default: "feature.webp" }
+      - { label: "Caption Thumbnail", name: "featureimagecaption", widget: "text", required: false }
+      - label: 'Kategori'
+        name: 'kategori'
+        widget: 'list'
+        summary: '{{fields.category}}'
+        required: false
+        field:
+          label: 'Category'
+          name: 'category'
+          widget: 'string'
+      - label: 'Label'
+        name: 'label'
+        widget: 'list'
+        summary: '{{fields.tag}}'
+        required: false
+        field:
+          label: 'Tag'
+          name: 'tag'
+          widget: 'string'
+      - { label: "Editor", name: "body", widget: "markdown" }
+
+  - name: "page"
+    label: "Page"
+    folder: "content/page"
+    create: true
+    format: "yaml-frontmatter"
+    yaml_format: "double_quoted"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Tanggal Dibuat", name: "date", widget: "datetime",  default: "{{now}}", dateFormat: "YYYY-MM-DD", required: false }
+      - { label: "Waktu", name: "time", widget: "datetime",  default: "{{now}}", time_format: "HH:mm", required: false }
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string",  encoding: "ascii", clean_accents: true, sanitize_replacement: "-" }
+      - { label: "Deskripsi", name: "description", widget: "text", required: false }
+      - { label: "Upload Thumbnail", name: "image", widget: "image", required: false }
+      - { label: "Thumbnail Manual", name: "featureimage", widget: "string", required: false, default: "feature.webp" }
+      - { label: "Caption Thumbnail", name: "featureimagecaption", widget: "text", required: false }
+      - { label: "Editor", name: "body", widget: "markdown" }
+
