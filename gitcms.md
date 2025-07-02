@@ -25,61 +25,43 @@ collections:
       - name: featureimagecaption
         required: false
         type: singleline
+      - name: category
+        type: multi_select
+        required: false
+        allowed_values:
+          - cat1
+          - cat2
+          - cat3
+      - name: tags
+        type: multi_select
+        required: false
     name: blog
-
-- name: pekerjaan
-  git_path: /content/pekerjaan
-  filename_pattern: title
-  file_extension: .md
-  metadata_schema:
-    - name: title
-      type: title
-      required: true
-
-    - name: draft
-      type: boolean
-      required: true
-
-    - name: date
-      type: datetime
-      required: false
-
-    - name: time
-      type: datetime
-      required: false
-
-    - name: slug
-      type: singleline
-      required: false
-
-    - name: description
-      type: multiline
-      required: false
-
-    - name: image
-      type: file
-      required: false
-
-    - name: featureimage
-      type: singleline
-      required: false
-
-    - name: featureimagecaption
-      type: multiline
-      required: false
-
-    - name: lulusan
-      type: list
-      required: false
-
-    - name: lokasi
-      type: list
-      required: false
-
-    - name: jabatan
-      type: list
-      required: false
-
+  - file_extension: .md
+    filename_pattern: title
+    git_path: /content/pekerjaan
+    metadata_schema:
+      - name: title
+        required: true
+        type: title
+      - name: draft
+        required: true
+        type: boolean
+      - name: date
+        required: false
+        type: datetime
+      - name: slug
+        required: false
+        type: singleline
+      - name: description
+        required: false
+        type: multiline
+      - name: image
+        required: false
+        type: file
+      - name: featureimagecaption
+        required: false
+        type: singleline
+    name: pekerjaan
   - file_extension: .md
     filename_pattern: title
     git_path: /content/magang
@@ -132,58 +114,58 @@ collections:
         required: false
         type: singleline
     name: page
-  - name: pelatihan
+  - file_extension: .md
+    filename_pattern: title
     git_path: /content/pelatihan
-    filename_pattern: title
-    file_extension: .md
     metadata_schema:
       - name: title
+        required: true
         type: title
-        required: true
       - name: draft
-        type: boolean
         required: true
+        type: boolean
       - name: date
+        required: false
         type: datetime
-        required: false
       - name: slug
-        type: singleline
         required: false
+        type: singleline
       - name: description
+        required: false
         type: multiline
-        required: false
       - name: image
+        required: false
         type: file
-        required: false
       - name: featureimagecaption
-        type: singleline
         required: false
-  - name: sertifikasi
+        type: singleline
+    name: pelatihan
+  - file_extension: .md
+    filename_pattern: title
     git_path: /content/sertifikasi
-    filename_pattern: title
-    file_extension: .md
     metadata_schema:
       - name: title
+        required: true
         type: title
-        required: true
       - name: draft
-        type: boolean
         required: true
+        type: boolean
       - name: date
+        required: false
         type: datetime
-        required: false
       - name: slug
-        type: singleline
         required: false
+        type: singleline
       - name: description
+        required: false
         type: multiline
-        required: false
       - name: image
+        required: false
         type: file
-        required: false
       - name: featureimagecaption
-        type: singleline
         required: false
+        type: singleline
+    name: sertifikasi
 media_path: /content
 repo: andreyulianto0371/zonakarier
 website_url: https://zonakarier.com
