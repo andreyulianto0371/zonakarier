@@ -1,10 +1,59 @@
 ---
-repo: andreyulianto0371/zonakarier
-media_path: /content
-website_url: https://zonakarier.com
 collections:
-  - name: pekerjaan
+  - file_extension: .md
+    filename_pattern: title
+    git_path: /content/blog
+    metadata_schema:
+      - name: title
+        type: title
+        required: true
+      - name: draft
+        type: boolean
+        required: true
+      - name: date
+        type: datetime
+        required: false
+      - name: slug
+        type: singleline
+        required: false
+      - name: description
+        type: multiline
+        required: false
+      - name: image
+        type: file
+        required: false
+      - name: featureimagecaption
+        type: singleline
+        required: false
+    name: blog
+  - file_extension: .md
+    filename_pattern: title
     git_path: /content/pekerjaan
+    metadata_schema:
+      - name: title
+        required: true
+        type: title
+      - name: draft
+        type: boolean
+        required: true
+      - name: date
+        type: datetime
+        required: false
+      - name: slug
+        type: singleline
+        required: false
+      - name: description
+        type: multiline
+        required: false
+      - name: image
+        type: file
+        required: false
+      - name: featureimagecaption
+        type: singleline
+        required: false
+    name: pekerjaan
+  - name: magang
+    git_path: /content/magang
     filename_pattern: title
     file_extension: .md
     metadata_schema:
@@ -13,10 +62,7 @@ collections:
         required: true
       - name: draft
         type: boolean
-        required: false
-        allowed_values:
-          - 'true'
-          - 'false'
+        required: true
       - name: date
         type: datetime
         required: false
@@ -24,42 +70,43 @@ collections:
         type: singleline
         required: false
       - name: description
-        type: singleline
+        type: multiline
         required: false
       - name: image
         type: file
         required: false
-      - name: featureimage
-        type: file
-        required: false
-      - name: lulusan
-        type: multi_select
-        required: false
-        allowed_values:
-          - S1
-          - D3
-          - SMA
-          - SMK
-      - name: lokasi
-        type: multi_select
-        required: false
-        allowed_values:
-          - bekasi
-          - jakarta
-          - bogor
-          - depok
-          - tangerang
-      - name: Posisi
+      - name: featureimagecaption
         type: singleline
         required: false
-  - name: ''
-    git_path: ''
-    filename_pattern: ''
+  - name: page
+    git_path: /content/page
+    filename_pattern: title
     file_extension: .md
     metadata_schema:
       - name: title
         type: title
         required: true
+      - name: draft
+        type: boolean
+        required: true
+      - name: date
+        type: datetime
+        required: false
+      - name: slug
+        type: singleline
+        required: false
+      - name: description
+        type: multiline
+        required: false
+      - name: image
+        type: file
+        required: false
+      - name: featureimagecaption
+        type: singleline
+        required: false
+media_path: /content
+repo: andreyulianto0371/zonakarier
+website_url: https://zonakarier.com
 ---
 # GitCMS Configuration File
 > [!WARNING]
