@@ -5,26 +5,26 @@ collections:
     git_path: /content/blog
     metadata_schema:
       - name: title
+        required: true
         type: title
-        required: true
       - name: draft
-        type: boolean
         required: true
+        type: boolean
       - name: date
+        required: false
         type: datetime
-        required: false
       - name: slug
-        type: singleline
         required: false
+        type: singleline
       - name: description
+        required: false
         type: multiline
-        required: false
       - name: image
+        required: false
         type: file
-        required: false
       - name: featureimagecaption
-        type: singleline
         required: false
+        type: singleline
     name: blog
   - file_extension: .md
     filename_pattern: title
@@ -34,26 +34,78 @@ collections:
         required: true
         type: title
       - name: draft
-        type: boolean
         required: true
+        type: boolean
       - name: date
+        required: false
         type: datetime
-        required: false
       - name: slug
-        type: singleline
         required: false
+        type: singleline
       - name: description
+        required: false
         type: multiline
-        required: false
       - name: image
+        required: false
         type: file
-        required: false
       - name: featureimagecaption
-        type: singleline
         required: false
+        type: singleline
     name: pekerjaan
-  - name: magang
+  - file_extension: .md
+    filename_pattern: title
     git_path: /content/magang
+    metadata_schema:
+      - name: title
+        required: true
+        type: title
+      - name: draft
+        required: true
+        type: boolean
+      - name: date
+        required: false
+        type: datetime
+      - name: slug
+        required: false
+        type: singleline
+      - name: description
+        required: false
+        type: multiline
+      - name: image
+        required: false
+        type: file
+      - name: featureimagecaption
+        required: false
+        type: singleline
+    name: magang
+  - file_extension: .md
+    filename_pattern: title
+    git_path: /content/page
+    metadata_schema:
+      - name: title
+        required: true
+        type: title
+      - name: draft
+        required: true
+        type: boolean
+      - name: date
+        required: false
+        type: datetime
+      - name: slug
+        required: false
+        type: singleline
+      - name: description
+        required: false
+        type: multiline
+      - name: image
+        required: false
+        type: file
+      - name: featureimagecaption
+        required: false
+        type: singleline
+    name: page
+  - name: pelatihan
+    git_path: /content/pelatihan
     filename_pattern: title
     file_extension: .md
     metadata_schema:
@@ -78,8 +130,8 @@ collections:
       - name: featureimagecaption
         type: singleline
         required: false
-  - name: page
-    git_path: /content/page
+  - name: sertifikasi
+    git_path: /content/sertifikasi
     filename_pattern: title
     file_extension: .md
     metadata_schema:
