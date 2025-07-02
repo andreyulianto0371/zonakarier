@@ -1,0 +1,9 @@
+# File konfigurasi Netlify (netlify.toml) untuk Hugo + Decap CMS
+[build]
+  publish = "public" # Folder output Hugo (hasil build)
+  command = "hugo --gc --minify" # Perintah build Hugo
+
+[context.production.environment]
+  HUGO_VERSION = "0.140.1" # Ganti dengan versi Hugo yang Anda gunakan
+  HUGO_ENV = "production" # Lingkungan produksi
+  HUGO_ENABLEGITINFO = "true" # Mengaktifkan info Git untuk versi

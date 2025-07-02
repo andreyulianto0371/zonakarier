@@ -5,18 +5,408 @@
     <link>http://localhost:1313/pekerjaan/</link>
     <description>Recent content in Pekerjaans on Zona Karier</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2025 Andre Yulianto</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pekerjaan/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language>
+    
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pekerjaan/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Lowongan Kerja Enginer di Bekasi</title>
-      <link>http://localhost:1313/pekerjaan/1751378705313-lowongan-kerja-enginer-di-bekasi/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <title>Lowongan Pekerjaan PT Schlemmer Automotive Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-schlemmer-automotive-indonesia/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pekerjaan/1751378705313-lowongan-kerja-enginer-di-bekasi/</guid>
+      <guid>http://localhost:1313/pekerjaan/pt-schlemmer-automotive-indonesia/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/1751378705313-lowongan-kerja-enginer-di-bekasi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-schlemmer-automotive-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Yamazaki Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-yamazaki-indonesia/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-yamazaki-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-yamazaki-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Jaya Asahi Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-jaya-asahi-indonesia/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-jaya-asahi-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-jaya-asahi-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Sanly Industries</title>
+      <link>http://localhost:1313/pekerjaan/pt-sanly-industries/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-sanly-industries/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-sanly-industries/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Schott Igar Glass</title>
+      <link>http://localhost:1313/pekerjaan/pt-schott-igar-glass/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-schott-igar-glass/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-schott-igar-glass/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT SIIX Ems Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-siix-ems-indonesia/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-siix-ems-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-siix-ems-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Yupi Indo Jelly Gum</title>
+      <link>http://localhost:1313/pekerjaan/pt-yupi-indo-jelly-gum/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-yupi-indo-jelly-gum/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-yupi-indo-jelly-gum/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Beta Pharmacon</title>
+      <link>http://localhost:1313/pekerjaan/pt-beta-pharmacon/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-beta-pharmacon/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-beta-pharmacon/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Daikin Industries Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-daikin-industries-indonesia/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-daikin-industries-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-daikin-industries-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Niterra Mobility Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-niterra-mobility-indonesia/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-niterra-mobility-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-niterra-mobility-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Pesta Pora Abadi</title>
+      <link>http://localhost:1313/pekerjaan/pt-pesta-pora-abadi/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-pesta-pora-abadi/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-pesta-pora-abadi/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Santos Jaya Abadi</title>
+      <link>http://localhost:1313/pekerjaan/pt-santos-jaya-abadi/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-santos-jaya-abadi/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-santos-jaya-abadi/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Aneka Mitra Gemilang</title>
+      <link>http://localhost:1313/pekerjaan/pt-aneka-mitra-gemilang/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-aneka-mitra-gemilang/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-aneka-mitra-gemilang/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Fukoku Tokai Rubber Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-fukoku-tokai-rubber-indonesia/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-fukoku-tokai-rubber-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-fukoku-tokai-rubber-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Hijau Elektronika Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-hijau-elektronika-indonesia/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-hijau-elektronika-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-hijau-elektronika-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT KAO Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-kao-indonesia/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-kao-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-kao-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Matsuo Precision Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-matsuo-precision-indonesia/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-matsuo-precision-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-matsuo-precision-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Saga Hikari Teknindo</title>
+      <link>http://localhost:1313/pekerjaan/pt-saga-hikari-teknindo/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-saga-hikari-teknindo/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-saga-hikari-teknindo/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Tri Saudara Sentosa Industri</title>
+      <link>http://localhost:1313/pekerjaan/pt-tri-saudara-sentosa-industri/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-tri-saudara-sentosa-industri/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-tri-saudara-sentosa-industri/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Ultrajaya Milk Industry &amp; Trading Company, Tbk</title>
+      <link>http://localhost:1313/pekerjaan/pt-ultrajaya-milk-industry-trading-company-tbk/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-ultrajaya-milk-industry-trading-company-tbk/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-ultrajaya-milk-industry-trading-company-tbk/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Astom Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-astom-indonesia/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-astom-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-astom-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT High Power Laser Sheet Metal</title>
+      <link>http://localhost:1313/pekerjaan/pt-high-power-laser-sheet-metal/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-high-power-laser-sheet-metal/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-high-power-laser-sheet-metal/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Indofood Fortuna Makmur</title>
+      <link>http://localhost:1313/pekerjaan/pt-indofood-fortuna-makmur/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-indofood-fortuna-makmur/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-indofood-fortuna-makmur/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Sharp Electronics Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-sharp-electronics-indonesia/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-sharp-electronics-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-sharp-electronics-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Advik Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-advik-indonesia/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-advik-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-advik-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Indocare Citrapasific</title>
+      <link>http://localhost:1313/pekerjaan/pt-indocare-citrapasific/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-indocare-citrapasific/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-indocare-citrapasific/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Kewpie Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-kewpie-indonesia/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-kewpie-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-kewpie-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Nusa Toyotetsu Corps</title>
+      <link>http://localhost:1313/pekerjaan/pt-nusa-toyotetsu-corps/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-nusa-toyotetsu-corps/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-nusa-toyotetsu-corps/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Yamaha Indonesia Motor Manufacturing</title>
+      <link>http://localhost:1313/pekerjaan/pt-yamaha-indonesia-motor-manufacturing/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-yamaha-indonesia-motor-manufacturing/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-yamaha-indonesia-motor-manufacturing/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Ikapharmindo Putramas Tbk</title>
+      <link>http://localhost:1313/pekerjaan/pt-ikapharmindo-putramas-tbk/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-ikapharmindo-putramas-tbk/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-ikapharmindo-putramas-tbk/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Moreen Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-moreen-indonesia/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-moreen-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-moreen-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Mulia Boga Raya (Prochiz) Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-mulia-boga-raya-prochiz-indonesia/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-mulia-boga-raya-prochiz-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-mulia-boga-raya-prochiz-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Nissin Foods Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-nissin-foods-indonesia/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-nissin-foods-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-nissin-foods-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Oneject Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-oneject-indonesia/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-oneject-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-oneject-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Selalu Cinta Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-selalu-cinta-indonesia/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-selalu-cinta-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-selalu-cinta-indonesia/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Toyota-Astra Motor</title>
+      <link>http://localhost:1313/pekerjaan/pt-toyota-astra-motor/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-toyota-astra-motor/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-toyota-astra-motor/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Hokkan Deltapack Industri</title>
+      <link>http://localhost:1313/pekerjaan/pt-hokkan-deltapack-industri/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-hokkan-deltapack-industri/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-hokkan-deltapack-industri/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Mayora Indah</title>
+      <link>http://localhost:1313/pekerjaan/pt-mayora-indah/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-mayora-indah/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-mayora-indah/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Patco Elektronik Teknologi</title>
+      <link>http://localhost:1313/pekerjaan/pt-patco-elektronik-teknologi/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-patco-elektronik-teknologi/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-patco-elektronik-teknologi/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Sanwa Screen Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-sanwa-screen-indonesia/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-sanwa-screen-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-sanwa-screen-indonesia/feature.webp" />
     </item>
     
   </channel>

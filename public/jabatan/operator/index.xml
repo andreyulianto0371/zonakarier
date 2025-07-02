@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operator on Zona Karier</title>
+    <link>http://localhost:1313/jabatan/operator/</link>
+    <description>Recent content in Operator on Zona Karier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    
+    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/jabatan/operator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Toyota-Astra Motor</title>
+      <link>http://localhost:1313/pekerjaan/pt-toyota-astra-motor/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-toyota-astra-motor/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-toyota-astra-motor/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

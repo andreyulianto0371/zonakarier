@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quality Staff on Zona Karier</title>
+    <link>http://localhost:1313/jabatan/quality-staff/</link>
+    <description>Recent content in Quality Staff on Zona Karier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/jabatan/quality-staff/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lowongan Pekerjaan PT Advik Indonesia</title>
+      <link>http://localhost:1313/pekerjaan/pt-advik-indonesia/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pekerjaan/pt-advik-indonesia/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pekerjaan/pt-advik-indonesia/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

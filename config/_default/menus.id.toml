@@ -1,0 +1,117 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog" # url akan otomatis muncul ketika ada postingan minimal 1
+  weight = 10
+
+[[main]]
+  name = "Pekerjaan"
+  pageRef = "pekerjaan" # url akan otomatis muncul ketika ada postingan minimal 1
+  weight = 15
+
+[[main]]
+  name = "Magang"
+  pageRef = "magang" # url akan otomatis muncul ketika ada postingan minimal 1
+  weight = 20
+
+[[main]]
+  name = "Pelatihan"
+  pageRef = "pelatihan" # url akan otomatis muncul ketika ada postingan minimal 1
+  weight = 30
+
+[[main]]
+  name = "Sertifikasi"
+  pageRef = "sertifikasi" # url akan otomatis muncul ketika ada postingan minimal 1
+  weight = 40
+  
+[[main]]
+  name = "Eksplorasi"
+  weight = 50
+
+[[main]]
+  name = "Kategori"
+  parent = "Eksplorasi"
+  pageRef = "kategori"
+  weight = 50
+
+[[main]]
+  name = "Label"
+  parent = "Eksplorasi"
+  pageRef = "label"
+  weight = 50
+
+[[main]]
+  name = "Kategori"
+  parent = "Eksplorasi"
+  pageRef = "kategori"
+  weight = 50
+
+[[main]]
+  name = "Lokasi"
+  parent = "Eksplorasi"
+  pageRef = "lokasi"
+  weight = 50
+
+[[main]]
+  name = "Jabatan"
+  parent = "Eksplorasi"
+  pageRef = "jabatan"
+  weight = 50
+
+[[main]]
+  name = "Lulusan"
+  parent = "Eksplorasi"
+  pageRef = "lulusan"
+  weight = 50
+
+[[subnavigation]]
+  name = "Tentang Kami"
+  url = "/page/about-us"
+  weight = 60
+
+[[subnavigation]]
+  name = "Kontak Kami"
+  url = "/page/contact-us"
+  weight = 61
+
+[[subnavigation]]
+  name = "Kebijakan Privasi"
+  url = "/page/privacy-policy"
+  weight = 62
+  
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+ [[footer]]
+   name = "Syarat dan Ketentuan"
+   url = "/page/terms-and-conditions"
+   weight = 10
+
+ [[footer]]
+   name = "Penafian"
+   url = "/page/disclaimer"
+   weight = 11
+
+ [[footer]]
+   name = "Kebijakan DMCA"
+   url = "/page/dmca-policy"
+   weight = 12
+
+ [[footer]]
+   name = "Pertanyaan yang Sering Diajukan"
+   url = "/page/frequently-asked-question/"
+   weight = 13
