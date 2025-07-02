@@ -25,16 +25,6 @@ collections:
       - name: featureimagecaption
         required: false
         type: singleline
-      - name: category
-        type: multi_select
-        required: false
-        allowed_values:
-          - cat1
-          - cat2
-          - cat3
-      - name: tags
-        type: multi_select
-        required: false
     name: blog
   - file_extension: .md
     filename_pattern: title
